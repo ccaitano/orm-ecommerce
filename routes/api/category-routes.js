@@ -29,7 +29,7 @@ router.get('/:id', async (req, res) => {
       return;
     }
 
-    res.status(400).json(categoryData);
+    res.status(200).json(categoryData);
   } catch {
     res.status(500).json(err);
   }
@@ -93,7 +93,6 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message: 'No category found with this id' });
       return;
     }
-
     res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
