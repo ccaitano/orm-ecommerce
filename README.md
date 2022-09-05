@@ -33,6 +33,7 @@ Create Schema from the MySQL Shell and Seed Database:
 
 https://user-images.githubusercontent.com/103088786/188342004-f4dbd696-a2f4-454a-b94d-7aa04c796689.mp4
 
+
 GET, POST, PUT, and DELETE Routes for Categories:
 
 ![Walkthrough of Category Routes]
