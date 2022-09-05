@@ -45,40 +45,19 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   // update a category by its `id` value
-    Category.update(req.body, {
+  try {
+    const categoryData = await Category.update(req.body, {
       where: {
         id: req.params.id,
       },
-    })
-      .then((category) => {
-        return Product.findAll({ where: {category_id: req.params.id }});
-      })
-      .then((products) => {
-        const productIds = products.map(({ product_id }) => product_id);
-        const newProductIds = req.body.productIds
-          .filter((product_id) => !productIds.includes(product_id))
-          .map((product_id) => {
-            return {
-              category_id: req.params.id,
-              product_id,
-            };
-          });
-      const categoryTagsToRemove = products
-          .filter(({ product_id }) => !req.body.productIds.includes(product_id))
-          .map(({ id }) => id);
-      
-      return Promise.all([
-        Product.destroy({ where: { id: categoryTagsToRemove } }),
-        Product.bulkCreate(newProductIds),
-      ]);
-      })
-      .then((updatedProducts) => res.json(updatedProducts))
-      .catch((err) => {
-        res.status(400).json(err);
-      });
     });
+    res.status(200).json(categoryData);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
 
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value

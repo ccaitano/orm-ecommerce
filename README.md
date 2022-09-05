@@ -29,27 +29,19 @@ Launch from the Terminal:
 
 Create Schema from the MySQL Shell and Seed Database:
 
-![Walkthrough of orm-ecommerce Initiation]()
+![Walkthrough of orm-ecommerce Initiation](./assets/orm_ecommerce_initiation.webm)
 
-GET Routes for All Categories, All Products, and All Tags:
+GET, POST, PUT, and DELETE Routes for Categories:
 
-![Walkthrough of GET Routes for All in Insomnia]()
+![Walkthrough of Category Routes](./assets/orm_ecommerce_categories.webm)
 
-GET Routes for Single Categories, Single Products, and Single Tags:
+GET, POST, PUT, and DELETE Routes for Products:
 
-![Walkthrough of GET Routes for Singles in Insomnia]()
+![Walkthrough of Product Routes](./assets/orm_ecommerce_products.webm)
 
-POST, PUT, and DELETE Routes for Categories:
+GET, POST, PUT, and DELETE Routes for Tags:
 
-![Walkthrough of POST, PUT, and DELETE Routes for Categories in Insomnia]()
-
-POST, PUT, and DELETE Routes for Products:
-
-![Walkthrough of POST, PUT, and DELETE Routes for Products in Insomnia]()
-
-POST, PUT, and DELETE Routes for Tags:
-
-![Walkthrough of POST, PUT, and DELETE Routes for Tags in Insomnia]()
+![Walkthrough of Tag Routes](./assets/orm_ecommerce_tags.webm)
 
 ## **License**
 
@@ -92,5 +84,3 @@ For any questions or contributions please contact me on Github or by e-mail:
 
 [Github Profile](https://www.github.com/ccaitano)  
 [Email Me](mailto:cheryl.caitano@gmail.com)
-
-Will update in the future to add delete functionality and the ability to view employees by department and by manager.
