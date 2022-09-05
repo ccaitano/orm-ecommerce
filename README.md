@@ -29,19 +29,33 @@ Launch from the Terminal:
 
 Create Schema from the MySQL Shell and Seed Database:
 
-![Walkthrough of orm-ecommerce Initiation](./assets/orm_ecommerce_initiation.webm)
+![Walkthrough of orm-ecommerce Initiation]
+
+https://user-images.githubusercontent.com/103088786/188342004-f4dbd696-a2f4-454a-b94d-7aa04c796689.mp4
 
 GET, POST, PUT, and DELETE Routes for Categories:
 
-![Walkthrough of Category Routes](./assets/orm_ecommerce_categories.webm)
+![Walkthrough of Category Routes]
+
+https://user-images.githubusercontent.com/103088786/188342071-af7aead8-fe76-469a-8a44-ec3eda2776bc.mp4
+
+
 
 GET, POST, PUT, and DELETE Routes for Products:
 
-![Walkthrough of Product Routes](./assets/orm_ecommerce_products.webm)
+![Walkthrough of Product Routes]
+
+https://user-images.githubusercontent.com/103088786/188342087-7b0eefa4-b7e3-496d-b889-94eb1b749e57.mp4
+
+
 
 GET, POST, PUT, and DELETE Routes for Tags:
 
-![Walkthrough of Tag Routes](./assets/orm_ecommerce_tags.webm)
+![Walkthrough of Tag Routes]
+
+https://user-images.githubusercontent.com/103088786/188342095-e59c6032-e2be-49f3-bb15-331e26cd1d1f.mp4
+
+
 
 ## **License**
 
